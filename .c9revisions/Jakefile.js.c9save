@@ -1,0 +1,2 @@
+{"ts":1363889768289,"silentsave":true,"restoring":false,"patch":[[]],"length":0}
+{"contributors":[],"silentsave":false,"ts":1363889824251,"patch":[[{"diffs":[[1,"var async = require(\"async\");\nvar request = require(\"request\");\n\ndesc('This is the default task.');\ntask('default', function () {\n  \n});"]],"start1":0,"start2":0,"length1":0,"length2":136}]],"length":136,"saved":false}
