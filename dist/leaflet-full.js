@@ -8758,7 +8758,7 @@ L.control.layers.provided = function (baseLayers, overlays, options) {
       }
       if (this.options.lc && !this.options.formatBase) {
         this.options.formatBase = [
-          /[\sA-Z]/g, function(match) {
+          /[\s\:A-Z]/g, function(match) {
             if (match.match(/\s/)) {
               return "_";
             } else if (match.match(/\:/)) {
